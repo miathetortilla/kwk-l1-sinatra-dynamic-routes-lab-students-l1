@@ -44,5 +44,5 @@ if "add" == params[:operation]
 else "divide" == params[:operation]
   d = (params[:number_1].to_i)+(params[:number_1].to_i)
   "#{d}"
-  
+end
 
