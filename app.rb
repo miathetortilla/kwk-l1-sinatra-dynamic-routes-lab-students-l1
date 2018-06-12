@@ -35,5 +35,14 @@ get '/:operation/:number1/:number2'
 if "add" == params[:operation]
   a = (params[:number_1].to_i)+(params[:number_1].to_i)
   "#{a}"
+  elsif "subtract" == params[:operation]
+  b = (params[:number_1].to_i)-(params[:number_1].to_i)
+  "#{b}"
+  elsif "multiply" == params[:operation]
+  c = (params[:number_1].to_i)*(params[:number_1].to_i)
+  "#{c}"
+else "divide" == params[:operation]
+  d = (params[:number_1].to_i)+(params[:number_1].to_i)
+  "#{d}"
   
 
