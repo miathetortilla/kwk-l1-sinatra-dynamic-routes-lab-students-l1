@@ -32,13 +32,6 @@ get '/say/:word1/:word2/:word3/:word4/:word5' do
 end
 
 get '/:operation/:number1/:number2'
-  @operation=params[:operation]
-  @number1=params[:number1]
-  @number2=params[:number2]
-  
-  x = "#{@number2}" (@operation) "#{@number1}"
-  
-  "#{x}"
-  
-end
+if "add" == params[:operation]
+  a= (params[:number_1].to_i)
 
