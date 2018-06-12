@@ -33,5 +33,7 @@ end
 
 get '/:operation/:number1/:number2'
 if "add" == params[:operation]
-  a= (params[:number_1].to_i)
+  a = (params[:number_1].to_i)+(params[:number_1].to_i)
+  "#{a}"
+  
 
