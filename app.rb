@@ -42,7 +42,7 @@ if "add" == params[:operation]
   c = (params[:number_1].to_i)*(params[:number_1].to_i)
   "#{c}"
 else "divide" == params[:operation]
-  d = (params[:number_1].to_i)+(params[:number_1].to_i)
+  d = (params[:number_1].to_i)/(params[:number_1].to_i)
   "#{d}"
 end
 
